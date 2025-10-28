@@ -17,8 +17,12 @@
     // ALTRIMENTI multiplo di 3 e 5, stampa FIZZBUZZ
     //ripeti fino a raggiungere 100
 
+
+let message = "";
+
 for (let i = 1; i <= 100; i++) {
-    console.log(i);
-}
+    if (i % 3 === 0 && i % 5 ===0)
+        console.log("BuzzFizz");
+} 
 // OUTPUT
 
